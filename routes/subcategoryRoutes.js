@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const SubCategory = require("../models/SubCategory");
-const Category = require("../models/Category");
+const SubCategory = require("../models/subcategory");
+const Category = require("../models/category");
 
 // Add SubCategory
 router.post("/addSubCategory", async (req, res) => {
